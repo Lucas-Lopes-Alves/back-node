@@ -3,3 +3,4 @@ node_modules/
 .vscode/
 front/
 *.txt
+texto.json
