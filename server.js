@@ -1,22 +1,14 @@
 import express from 'express'
-import 'dotenv/config'
-// import Public from "./public/public.js"
-
-const router = express.Router()
-
-function teste(req,res){
-    const user = req.body
-    res.status(201).json(user)
-}
-
-router.post("/cadastro", teste)
-
 const app = express()
+const router = express.Router()
 app.use(express.json())
+router.post('/caminho', (res,req)=>{
+    const user = req.body
+    res.send().status(201).json(user)
+})
 
-app.use("/", router)
+app.use('/',router)
 
-app.listen(5000, ()=>{console.log("server tá funcionando")})
-
-// lucas
-// LF8735UIRvdqJw6y
+app.listen(5000, (res,req)=>{
+    console.log("Servidor tá no trinques")
+})
