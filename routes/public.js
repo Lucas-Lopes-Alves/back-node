@@ -1,6 +1,7 @@
 import express from 'express'
 
 const router = express.Router()
+// express().use(express.json())
 
 router.post("/cadastro", (req,res)=>{
     const user = req.body
