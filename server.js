@@ -1,5 +1,5 @@
 import express from 'express'
-import Router from "./routes/public.js"
+import Router from "./routes/cadastro.js"
 const app = express()
 app.use(express.json())
 
