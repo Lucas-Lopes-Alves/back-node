@@ -1,7 +1,6 @@
 import express from 'express'
-import Router from "./public.js"
+import Router from "./routes/public.js"
 const app = express()
-
 app.use(express.json())
 
 app.use('/',Router)
