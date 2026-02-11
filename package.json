@@ -17,7 +17,6 @@
     "mongodb": "^7.1.0"
   },
   "description": "",
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Lucas-Lopes-Alves/back-node.git"
