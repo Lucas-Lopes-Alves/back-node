@@ -1,6 +1,5 @@
 node_modules/
 .env
 .vscode/
-front/
 *.txt
 texto.json
